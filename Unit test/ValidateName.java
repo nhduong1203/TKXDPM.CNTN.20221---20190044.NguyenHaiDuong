@@ -17,9 +17,9 @@ public class ValidateName {
 
     @ParameterizedTest
     @CsvSource({
-            "Le Minh Tu,true",
-            "tulm183651,false",
-            "tu@vippro,false",
+            "Nguyen Hai Duong,true",
+            "duongnh190044,false",
+            "duongnh@!123,false",
             ",false",
     })
     public void test(String name, boolean trueVal) {
