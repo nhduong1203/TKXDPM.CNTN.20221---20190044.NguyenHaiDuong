@@ -18,6 +18,7 @@ public class ValidateName {
     @ParameterizedTest
     @CsvSource({
             "Nguyen Hai Duong,true",
+            "Nguyen Van A, true",
             "duongnh190044,false",
             "duongnh@!123,false",
             ",false",
