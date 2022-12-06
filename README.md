@@ -13,3 +13,6 @@
  - [x] Interface Design 
  # WEEK 5:
  - [x] Class Diagram
+ - [x] Data Modeling
+ # WEEK 6:
+ - [x] Programming
